@@ -13,4 +13,5 @@ fn get_first_word(s: &String) -> &str {
         }
     }
     return &s; // no spaces found
+               // &String != &str
 }
